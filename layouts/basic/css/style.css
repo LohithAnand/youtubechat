@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 18, 2018, 2:42:24 PM
+    Author     : anand
+*/
+
+.golive-wrapper {
+    text-align: center;
+    padding: 2%;
+}
+
+.chats-container {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.authorDetails {
+    color: blue;
+}
+
+.chat-message-content, .chat-message-results-content {
+    padding: 2%;
+    border: 1px solid #e7e3e3;
+    margin: 1%;
+}
+
+.chat-message-content img {
+    border-radius: 50%;
+}
+
+#search-database, #chat-hype {
+    margin-top: 5%;
+    border: 1px solid #e3dbdb;
+    padding: 2%;
+    min-height: 350px;
+    margin-bottom: 5%;
+}
+
+.highcharts-yaxis-grid .highcharts-grid-line {
+	display: none;
+}
